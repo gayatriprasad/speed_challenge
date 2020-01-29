@@ -1,4 +1,4 @@
-#### speed_challenge
+### Speed Challenge
 
 #### This is the code for speed challenge presented in https://github.com/commaai/speedchallenge
 
