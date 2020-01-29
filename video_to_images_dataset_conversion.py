@@ -96,9 +96,9 @@ if __name__ == "__main__":
     pass
     """
     # data directory
-    train_data_path = '/home/gp/Documents/projects/speed-challenge-2017/data'
+    train_data_path = './speed-challenge/data'
     # if Path to raw image folder does not exists make folder
-    path_to_images = os.path.join('/home/gp/Documents/projects/speed-challenge-2017/data/IMG')
+    path_to_images = os.path.join('./speed-challenge/data/IMG')
     if not os.path.exists(path_to_images):
         os.makedirs(path_to_images)
     # reading the train speeds
