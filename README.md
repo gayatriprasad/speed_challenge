@@ -1,8 +1,8 @@
-### Speed Challenge
+### Speed Challenge (find the speed of the vehicle from a dashcam video) 
 
 #### This is the code for speed challenge presented in https://github.com/commaai/speedchallenge
 
-Note: inout data might vary from soruce to source 
+Note: input data might vary from soruce to source 
 
 """
 #### TO-DO
