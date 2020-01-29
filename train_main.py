@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     # datasets
     print("==> Preparing dataset ...")
-    data_dir = '/home/gp/Documents/projects/speed-challenge-2017/data'
+    data_dir = './speed-challenge/data'
     # if Path to raw image folder does not exists make folder
     path_to_images = os.path.join(data_dir + '/IMG')
     if not os.path.exists(path_to_images):
@@ -85,12 +85,11 @@ if __name__ == "__main__":
     print()
     print('Ended Training')
 
-"""
+
     # calculate the validation score
     val_score = model.evaluate_generator(test_generator, steps=len(test))
     print()
     print('validation score:', val_score)
     data = predictions(test, model)
-    data.to_pickle('/home/gp/Documents/projects/speed-challenge-2017/data/predictions.pkl')
-    print(get_pred_mse('/home/gp/Documents/projects/speed-challenge-2017/data/predictions.pkl'))
-"""
+    data.to_pickle('speed-challenge/data/predictions.pkl')
+    print(get_pred_mse('/speed-challenge/data/predictions.pkl'))
