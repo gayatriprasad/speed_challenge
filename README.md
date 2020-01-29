@@ -7,7 +7,7 @@
 """
 #### TO-DO
 
-1) Add Model and dataset implementation using pytorch """
+1) Add Model and dataset implementation using pytorch
 2) Experiment with different optical flow methods : ( Lucas Kanade method, Farneback method (used this implementation)
 
 """
