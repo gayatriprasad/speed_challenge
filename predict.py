@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 from video_to_images_dataset_conversion import FrameSpeedDataset
 
 
-data_dir = '/home/gp/Documents/projects/speed-challenge-2017/data'
+data_dir = './speed-challenge/data'
 # if Path to raw image folder does not exists make folder
 path_to_images = os.path.join(data_dir + '/IMG')
 if not os.path.exists(path_to_images):
